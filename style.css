@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: #ffffff;
-  color: #0a1f44;
+  background: #f5f7fa;
+  color: #1a1a2e;
   scroll-behavior: smooth;
   line-height: 1.6;
 }
@@ -15,8 +15,8 @@ body {
 /* Navigation */
 header {
   background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   padding: 20px 40px;
   position: fixed;
   top: 0;
@@ -29,7 +29,7 @@ header {
 
 .logo {
   font-size: 1.5rem;
-  color: #007bff;
+  color: #005eff;
   font-weight: 600;
 }
 
@@ -41,7 +41,7 @@ header {
 
 .nav-links a {
   position: relative;
-  color: #0a1f44;
+  color: #1a1a2e;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s ease;
@@ -54,7 +54,7 @@ header {
   left: 0;
   height: 2px;
   width: 0%;
-  background-color: #007bff;
+  background-color: #005eff;
   transition: width 0.3s;
 }
 
@@ -65,7 +65,7 @@ header {
 /* Hero */
 .hero {
   height: 100vh;
-  background: linear-gradient(135deg, #e6f0ff, #ffffff);
+  background: linear-gradient(135deg, #e3e9f0, #f5f7fa);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,19 +75,19 @@ header {
 
 .hero-text h2 {
   font-size: 2.8rem;
-  color: #007bff;
+  color: #005eff;
 }
 
 .hero-text p {
   font-size: 1.2rem;
-  color: #0a1f44;
+  color: #1a1a2e;
   margin: 10px 0 20px;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 25px;
-  background: #007bff;
+  background: #005eff;
   color: white;
   border-radius: 6px;
   font-weight: bold;
@@ -96,14 +96,14 @@ header {
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: #0040d0;
 }
 
 .scroll-down {
   font-size: 2rem;
   animation: bounce 1.5s infinite;
   margin-top: 30px;
-  color: #007bff;
+  color: #005eff;
 }
 
 @keyframes bounce {
@@ -121,9 +121,9 @@ section {
 h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  border-left: 5px solid #007bff;
+  border-left: 5px solid #005eff;
   padding-left: 10px;
-  color: #0a1f44;
+  color: #1a1a2e;
 }
 
 /* About */
@@ -137,7 +137,7 @@ h2 {
 .profile-pic {
   width: 180px;
   border-radius: 15px;
-  border: 3px solid #007bff;
+  border: 3px solid #005eff;
 }
 
 /* Projects */
@@ -148,27 +148,27 @@ h2 {
 }
 
 .card {
-  background: #f8faff;
+  background: #ffffff;
   padding: 20px;
   border-radius: 15px;
-  border: 1px solid #dbe9ff;
+  border: 1px solid #cbd4e0;
   perspective: 800px;
   transform-style: preserve-3d;
   transition: transform 0.5s ease, box-shadow 0.3s;
-  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
 }
 
 .card:hover {
   transform: rotateY(6deg) rotateX(3deg);
-  box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+  box-shadow: 0 10px 25px rgba(0, 94, 255, 0.1);
 }
 
 .card h3 {
-  color: #007bff;
+  color: #005eff;
 }
 
 .card a {
-  color: #007bff;
+  color: #005eff;
   text-decoration: none;
   font-weight: 500;
 }
@@ -177,7 +177,7 @@ h2 {
 .skills-list {
   list-style: disc;
   padding-left: 20px;
-  color: #0a1f44;
+  color: #1a1a2e;
 }
 
 .skills-list li {
@@ -192,7 +192,7 @@ h2 {
 }
 
 .social-links a {
-  color: #007bff;
+  color: #005eff;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -201,7 +201,7 @@ h2 {
 footer {
   text-align: center;
   padding: 20px;
-  background: #f1f6ff;
+  background: #eaeef5;
   margin-top: 50px;
   color: #666;
 }
@@ -232,14 +232,14 @@ footer {
 .shape {
   position: absolute;
   border-radius: 50%;
-  opacity: 0.15;
+  opacity: 0.12;
   animation: float 8s ease-in-out infinite alternate;
 }
 
 .shape.blue {
   width: 200px;
   height: 200px;
-  background: #007bff;
+  background: #005eff;
   top: 20%;
   left: 10%;
   animation-delay: 0s;
