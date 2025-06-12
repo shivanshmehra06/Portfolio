@@ -3,96 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio | Your Name</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Shivansh Mehra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-gray-900 text-white font-sans">
-  <div class="max-w-4xl mx-auto p-6">
-    <header class="mb-10">
-      <h1 class="text-4xl font-bold">Your Name</h1>
-      <p class="text-xl text-gray-400">B.Tech Computer Science Student</p>
-      <p class="mt-2">📍 Your City | 📧 youremail@example.com | 📞 +91-XXXXXXXXXX</p>
-    </header>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Shivansh Mehra</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">🎓 Education</h2>
-      <p><strong>Bachelor of Technology in Computer Science</strong></p>
-      <p>Your College Name, Location</p>
-      <p>Expected Graduation: Month, Year | CGPA: X.XX</p>
-    </section>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm Shivansh 👋</h2>
+      <p>B.Tech Student | Aspiring Engineer | Tech Enthusiast</p>
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">💼 Internships / Experience</h2>
-      <div class="mb-4">
-        <p><strong>Software Development Intern</strong> - Company Name</p>
-        <ul class="list-disc list-inside text-gray-300">
-          <li>Built feature/app using tech stack.</li>
-          <li>Improved performance/UX by X%.</li>
-          <li>Used Git and Agile with a team of X developers.</li>
-        </ul>
+  <section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>I am a motivated and detail-oriented BTech student with a strong foundation in engineering principles and a passion for solving real-world problems through technology. I'm currently studying at Samrat Ashok Technological Institute, Vidisha (2024–2028).</p>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <h2>Projects</h2>
+    <div class="project-cards">
+      <div class="card">
+        <h3>Password Strength Checker</h3>
+        <p>A real-time password strength checker with HaveIBeenPwned API integration.</p>
+        <a href="https://shivanshmehra06.github.io/password-checker/" target="_blank">View Project</a>
       </div>
-      <div>
-        <p><strong>Machine Learning Intern</strong> - Organization Name</p>
-        <ul class="list-disc list-inside text-gray-300">
-          <li>Worked on Project Title.</li>
-          <li>Trained models using Python, scikit-learn.</li>
-          <li>Achieved X% accuracy.</li>
-        </ul>
+      <div class="card">
+        <h3>AES Encryption Tool</h3>
+        <p>Encrypt/decrypt messages using AES with a browser-based tool. Built with JavaScript and CryptoJS.</p>
+        <a href="https://shivanshmehra06.github.io/encryption-tool/" target="_blank">View Project</a>
       </div>
-    </section>
+      <div class="card">
+        <h3>Satellite Telemetry Dashboard</h3>
+        <p>Static dashboard built using Plotly.js with dark/light mode and a modern UI.</p>
+        <a href="https://shivanshmehra06.github.io/sat-telemetry-webpage/" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">🛠️ Skills</h2>
-      <p><strong>Languages:</strong> Python, Java, C/C++, JavaScript, HTML, CSS</p>
-      <p><strong>Frameworks/Tools:</strong> React, Node.js, Flask, Bootstrap, Git, Firebase</p>
-      <p><strong>Databases:</strong> MySQL, MongoDB, SQLite</p>
-      <p><strong>Other:</strong> DSA, OOP, REST APIs, Linux</p>
-    </section>
+  <section id="skills" class="fade-in">
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+      <li>HTML, CSS, Python, SQL, C</li>
+      <li>Git, VS Code, Jupyter, Replit</li>
+      <li>pandas, NumPy, Matplotlib</li>
+      <li>AI Tools: ChatGPT, DeepSeek, Gemini</li>
+    </ul>
+  </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">🚀 Projects</h2>
-      <ul class="list-disc list-inside text-gray-300">
-        <li>
-          <strong>CodeVerse – Online Code Compiler</strong><br/>
-          React, Node.js, Docker | Syntax highlighting, auth, language switching
-        </li>
-        <li>
-          <strong>Smart Attendance System using Face Recognition</strong><br/>
-          Python, OpenCV | Automates attendance from webcam feed
-        </li>
-        <li>
-          <strong>Portfolio Website</strong><br/>
-          HTML, CSS, JS | Responsive design with resume and contact form
-        </li>
-      </ul>
-    </section>
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>📞 +91 8871802250</p>
+    <p>📧 <a href="mailto:shivanshmehra06@gmail.com">shivanshmehra06@gmail.com</a></p>
+    <div class="social-links">
+      <a href="https://github.com/Shiva" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/shivanshmehra" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+  </section>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">🏆 Achievements & Certifications</h2>
-      <ul class="list-disc list-inside text-gray-300">
-        <li>Google Cloud Ready Facilitator Program – 30+ labs completed</li>
-        <li>Coursera: Machine Learning – Stanford University</li>
-        <li>Hackathon Finalist – Hackathon Name, Year</li>
-        <li>CodeChef / LeetCode – X problems solved, Rating</li>
-      </ul>
-    </section>
+  <footer>
+    <p>&copy; 2025 Shivansh Mehra. All Rights Reserved.</p>
+  </footer>
 
-    <section class="mb-8">
-      <h2 class="text-2xl font-semibold border-b border-gray-700 pb-2 mb-4">📂 GitHub Projects</h2>
-      <p><a href="#" class="text-blue-400 underline">GitHub Profile</a></p>
-      <ul class="list-disc list-inside text-gray-300">
-        <li><a href="#" class="text-blue-300 underline">Project 1</a> – Short description</li>
-        <li><a href="#" class="text-blue-300 underline">Project 2</a> – Short description</li>
-      </ul>
-    </section>
-
-    <footer class="border-t border-gray-700 pt-4">
-      <h2 class="text-2xl font-semibold mb-2">📬 Contact</h2>
-      <p>Email: <a href="mailto:youremail@example.com" class="text-blue-400">youremail@example.com</a></p>
-      <p>LinkedIn: <a href="#" class="text-blue-400">linkedin.com/in/yourprofile</a></p>
-      <p>GitHub: <a href="#" class="text-blue-400">github.com/yourusername</a></p>
-      <p>Phone: +91-XXXXXXXXXX</p>
-    </footer>
-  </div>
+  <script>
+    // Fade in animation
+    const fadeEls = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    });
+    fadeEls.forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
+
